@@ -1,4 +1,18 @@
-function animals () {
+let nameArray = [
+'Lyla',
+'Ivy',
+"Flynn",
+'schnitzel von Krumm, with a very low tum',
+]
 
-    let animalName = prompt(" What is the name of the animal you want to record? ")
+function addName() {
+//lets user input the name of the pet
+let name=prompt("what is the name of your pet?")
+// add a new name to add to array of names
+ nameArray.push(name)
+}
+
+function names(){
+//lets shows user names of all the pets
+alert(nameArray)
 }
